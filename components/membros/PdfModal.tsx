@@ -67,7 +67,7 @@ export function PdfModal({ isOpen, onClose, title, pdfUrl }: PdfModalProps) {
 
   const canGoBack = pageNumber > 1;
   const canGoForward = numPages ? pageNumber < numPages : false;
-  const pdfSource = encodeURI(pdfUrl);
+  const pdfSource = pdfUrl;
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">

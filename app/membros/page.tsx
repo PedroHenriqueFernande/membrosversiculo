@@ -39,7 +39,7 @@ export default function MembrosPage() {
       title: 'Evangelio de Lucas',
       subtitle: 'El Evangelio del Hijo del Hombre - La humanidad perfecta y compasión de Cristo.',
       isLocked: false,
-      pdfUrl: '/El Evangelio de Lucas.pdf'
+      pdfUrl: '/El%20Evangelio%20de%20Lucas.pdf'
     },
     {
       id: 'juan',
@@ -56,49 +56,49 @@ export default function MembrosPage() {
       title: 'Comunicación Eficaz en el Púlpito',
       subtitle: 'Técnicas profesionales para comunicar el mensaje con claridad, pasión y efectividad.',
       isLocked: false,
-      pdfUrl: 'https://example.com/bonus1.pdf'
+      pdfUrl: '/1%20Comunicaci%C3%B3n%20Eficaz%20en%20el%20P%C3%BAlpito.pdf'
     },
     bonus2: {
       id: 'bonus2',
       title: 'Desarrollo Espiritual del Predicador',
       subtitle: 'Fundamentos esenciales para el crecimiento espiritual y vida devocional del predicador.',
       isLocked: false,
-      pdfUrl: 'https://example.com/bonus2.pdf'
+      pdfUrl: '/2%20Desarrollo%20Espiritual%20del%20Predicador.pdf'
     },
     bonus3: {
       id: 'bonus3',
       title: 'Exégesis y Hermenéutica Bíblica',
       subtitle: 'Métodos científicos para la interpretación correcta de las Sagradas Escrituras.',
       isLocked: false,
-      pdfUrl: 'https://example.com/bonus3.pdf'
+      pdfUrl: '/3%20Ex%C3%A9gesis%20y%20Hermen%C3%A9utica%20B%C3%ADblica..pdf'
     },
     bonus4: {
       id: 'bonus4',
       title: 'Historia de la Predicación Cristiana',
       subtitle: 'Un recorrido por los grandes predicadores y sus contribuciones a través de los siglos.',
       isLocked: false,
-      pdfUrl: 'https://example.com/bonus4.pdf'
+      pdfUrl: '/4%20Historia%20de%20la%20Predicaci%C3%B3n%20Cristiana.pdf'
     },
     bonus5: {
       id: 'bonus5',
       title: 'Predicación Expositiva',
       subtitle: 'El arte de exponer fielmente la Palabra de Dios versículo por versículo.',
       isLocked: false,
-      pdfUrl: 'https://example.com/bonus5.pdf'
+      pdfUrl: '/5%20Predicaci%C3%B3n%20Expositiva.pdf'
     },
     bonus6: {
       id: 'bonus6',
       title: 'Oratoria y Voz en la Predicación',
       subtitle: 'Entrenamiento vocal y técnicas de oratoria para potenciar tu mensaje.',
       isLocked: false,
-      pdfUrl: 'https://example.com/bonus6.pdf'
+      pdfUrl: '/6%20Predicaci%C3%B3n%20Tem%C3%A1tica.pdf'
     },
     bonus7: {
       id: 'bonus7',
       title: 'Preparación del Sermón Paso a Paso',
       subtitle: 'Metodología práctica para estructurar sermones poderosos y transformadores.',
       isLocked: false,
-      pdfUrl: 'https://example.com/bonus7.pdf'
+      pdfUrl: '/7%20Preparaci%C3%B3n%20de%20Sermones%20Gu%C3%ADa%20Pr%C3%A1ctica.pdf'
     }
   };
 
@@ -250,18 +250,6 @@ export default function MembrosPage() {
             onAccess={() => handleAccessPdf(bonusData.bonus7)}
           />
         </ModuleSection>
-
-        <div className="mt-20 p-8 bg-gradient-to-br from-amber-950/20 to-zinc-900/20 border border-amber-900/30 rounded-2xl text-center">
-          <h3 className="text-2xl font-bold text-amber-100 mb-3">
-            ¿Necesitas Ayuda?
-          </h3>
-          <p className="text-amber-200/70 mb-6">
-            Si tienes alguna dificultad para acceder a los recursos, contáctanos.
-          </p>
-          <button className="px-8 py-3 bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-500 hover:to-amber-600 text-black font-medium rounded-lg transition-all shadow-lg shadow-amber-900/30">
-            Soporte Técnico
-          </button>
-        </div>
       </main>
 
       {selectedPdf && (
@@ -275,3 +263,4 @@ export default function MembrosPage() {
     </div>
   );
 }
+
