@@ -25,28 +25,28 @@ export default function MembrosPage() {
       title: 'Evangelio de Mateo',
       subtitle: 'El Evangelio del Rey - Una perspectiva completa del ministerio de Jesús como el Mesías prometido.',
       isLocked: false,
-      pdfUrl: 'https://example.com/mateo.pdf'
+      pdfUrl: '/el-evangelio-segun-san-mateo.pdf'
     },
     {
       id: 'marcos',
       title: 'Evangelio de Marcos',
       subtitle: 'El Evangelio del Siervo - La acción dinámica y el servicio del Hijo de Dios.',
       isLocked: false,
-      pdfUrl: 'https://example.com/marcos.pdf'
+      pdfUrl: '/El_evangelio_de_Marcos_y_su_exegesis.pdf'
     },
     {
       id: 'lucas',
       title: 'Evangelio de Lucas',
       subtitle: 'El Evangelio del Hijo del Hombre - La humanidad perfecta y compasión de Cristo.',
       isLocked: false,
-      pdfUrl: 'https://example.com/lucas.pdf'
+      pdfUrl: '/El Evangelio de Lucas.pdf'
     },
     {
       id: 'juan',
       title: 'Evangelio de Juan',
       subtitle: 'El Evangelio del Hijo de Dios - La revelación profunda de la deidad de Cristo.',
       isLocked: false,
-      pdfUrl: 'https://example.com/juan.pdf'
+      pdfUrl: '/evangelio-de-juan.pdf'
     }
   ];
 

@@ -1,6 +1,6 @@
 'use client';
 
-import { BookOpen, Lock, Download } from 'lucide-react';
+import { BookOpen, Lock } from 'lucide-react';
 import { useState } from 'react';
 
 interface PdfCardProps {
@@ -73,8 +73,8 @@ export function PdfCard({ title, subtitle, isLocked = false, pdfUrl, onAccess }:
             </span>
           ) : (
             <span className="flex items-center justify-center gap-2">
-              <Download className="w-4 h-4" />
-              Acessar PDF
+              <BookOpen className="w-4 h-4" />
+              Ler agora
             </span>
           )}
         </button>
